@@ -1,0 +1,77 @@
+/* .inner{
+  max-width:1440px;
+  margin:0 auto; 
+  padding:0 70px;
+  box-sizing: border-box;
+}
+#wrap{
+  position: relative;
+} */
+
+.inner {
+  min-width:320px;
+  max-width: 760px;
+  margin:0 auto;
+  position: relative;
+  padding:0 16px;
+}
+#wrap{width:100%;min-width:320px;max-width: 760px;
+  margin:0 auto;}
+h2{
+  font-family : 'Gmarket';  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+.dark_blue{
+  color: #2A2A5E;
+}
+.pink{
+  color: #E9598A;
+}
+.mint{
+  color: #27C3B5;
+}
+.yellow{
+  color: #FFC34D;
+}
+/***********************status_bar**************************/
+#status_bar{
+  height: 24px;
+  background-color: black;
+}
+/*********************header****************************/
+
+#header{
+  background-color: #2A2A5E;
+ height: 40px;
+  line-height: 35px;
+}
+#header .inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+}
+#header .brand_logo{
+  width: 60px;
+  justify-content: center;
+}
+#header .brand_logo img{
+  width: 100%;
+}
+#header .ticket{
+justify-content: center;
+}
+/*********************section****************************/
+
+
+/*********************footer****************************/
+

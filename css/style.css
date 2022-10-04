@@ -42,10 +42,30 @@ h3{
 .yellow{
   color: #FFC34D;
 }
-/***********************status_bar**************************/
+/* .flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+} */
+.btn_a{
+  background-color: #E9598A;
+  padding: 6px 20px;
+  border-radius: 40px;
+  color: #fff;
+}
+.btn_b{
+  background-color: #fff;
+  padding: 6px 20px;
+  /* border:1px solid #E9598A; */
+  border-radius: 40px;
+  color: #E9598A;
+}
+
+***********************status_bar**************************/
 #status_bar{
   height: 24px;
-  background-color: black;
+  background-color: #2A2A5E;
 }
 /*********************header****************************/
 
@@ -70,7 +90,65 @@ h3{
 #header .ticket{
 justify-content: center;
 }
-/*********************section****************************/
+/*********************section 1****************************/
+#sec1 { 
+  background: linear-gradient(rgba(16, 16, 37, 1), rgba(0, 0, 0, 0)), url(../images/main_sec01_back.jpg);  
+  background-size: cover ;
+  background-position: center center;
+  height: 350px;
+}
+#sec1 .cont{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+}
+
+
+#sec1 .cont .txt_box .tit{
+  margin-top: 75px;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.3em;
+  font-weight: 900;
+}
+#sec1 .cont .txt_box .txt{
+  margin-top: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.3em;
+}
+#sec1 .cont .img{
+  margin-top: 75px;
+  width: 40%;
+}
+#sec1 .cont .img img{
+  width: 70%;
+}
+#sec1 .btn_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+#sec1 .btn_list {
+  margin-top: 30px;
+}
+#sec1 .btn_list .btn_a{
+  margin-right: 10px;
+}
+
+
+
+/*********************section 2****************************/
+/*********************section 3****************************/
+/*********************section 4****************************/
+/*********************section 5****************************/
+/*********************section 6****************************/
+/*********************section 7****************************/
+/*********************section 8****************************/
 
 
 /*********************footer****************************/

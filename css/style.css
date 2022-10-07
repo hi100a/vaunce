@@ -161,8 +161,8 @@ justify-content: center;
   margin-bottom: 10px;
 }
 
-#sec2 .variable.slider .box{
-  width: 150px;
+#sec2 .swiper-container .swiper-slide{
+  width: calc(100%/3);
   height: 150px;
   overflow: hidden;
   border-radius: 20px;

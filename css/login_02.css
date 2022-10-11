@@ -1,0 +1,200 @@
+/* .inner{
+  max-width:1440px;
+  margin:0 auto; 
+  padding:0 70px;
+  box-sizing: border-box;
+}
+#wrap{
+  position: relative;
+} */
+
+.inner {
+  min-width:320px;
+  max-width: 760px;
+  margin:0 auto;
+  position: relative;
+  padding:0 16px;
+}
+#wrap{width:100%;min-width:320px;max-width: 760px;
+  margin:0 auto;}
+  body{
+    color: #333;
+  }
+h2{
+  font-family : 'Gmarket';  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5em;
+}
+h4{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
+.dark_blue{
+  color: #2A2A5E;
+}
+.pink{
+  color: #E9598A;
+}
+.mint{
+  color: #27C3B5;
+}
+.yellow{
+  color: #FFC34D;
+}
+/* .flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+} */
+.btn_a{
+  background-color: #E9598A;
+  padding: 6px 20px;
+  border-radius: 40px;
+  color: #fff;
+}
+.btn_b{
+  background-color: #fff;
+  padding: 6px 20px;
+  /* border:1px solid #E9598A; */
+  border-radius: 40px;
+  color: #E9598A;
+}
+
+/***********************status_bar**************************/
+#status_bar{
+  height: 24px;
+  background-color: #2A2A5E;
+}
+/*********************header****************************/
+
+#header{
+ 
+ height: 40px;
+  line-height: 35px;
+}
+#header .inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+}
+#header .brand_logo{
+  width: 60px;
+  justify-content: center;
+}
+#header .brand_logo img{
+  width: 100%;
+}
+#header .ticket{
+justify-content: center;
+}
+/*********************section 1****************************/
+
+#wrap{
+  width: 100%;
+  height: 100vh;
+}
+
+#sec1{
+  color: #333;
+}
+.login_tit{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.login_tit h4{
+  margin-bottom: 10px;
+}
+.login_tit p{
+  font-size: 1rem;
+  line-height: 1.3em;
+}
+input::placeholder {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.login_checkbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.login_checkbox input{
+  margin-right: 5px;
+}
+
+.btn{
+  margin-top: 10px;
+  width: 100%;
+  background-color: #E9598A;
+  border-radius: 10px;
+  padding: 13px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+}
+.btn_log1{
+  margin-top: 30px;
+}
+.btn_log{
+  margin-top: 10px;
+  width: 100%;
+  background-color: #aaaaaa;
+  box-sizing: border-box;
+}
+
+/*********************section 2****************************/
+
+
+/*********************section 
+3****************************/
+
+
+
+/*********************section 4****************************/
+
+/*********************section 5****************************/
+
+/*********************bot_bar****************************/
+
+#bot_bar {
+  height: 70px;
+  width: 100%;
+ background-color: #F6F6F6;
+position: fixed;
+bottom: 0;
+z-index: 999;
+}
+#bot_bar .icon_list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+#bot_bar .ticket{
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(to right, #F19B0B, #DD694E, #C35B91,#700289,#2A2A5E);
+  border-radius: 100px;
+  text-align: center;
+transform: translateY(-15px);
+}
+#bot_bar .ticket img{
+  margin-top: 15px;
+  }
+#bot_bar img{
+margin-top: 10px;
+}
+
+/*********************footer****************************/
+

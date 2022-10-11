@@ -14,11 +14,18 @@
 <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
 <link rel="stylesheet" type="text/css" href="./css/slick.css">
 
-<!--스와이프-->
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
+<!--스와이프 슬라이드-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+<!--스와이프 슬라이드 end-->
 
 <script src="js/jquery-3.1.1.min.js"> </script>
 <script src="js/jquery-migrate-3.0.0.js"></script>  
@@ -37,8 +44,8 @@
   </div><!--status_bar end-->
   <header id="header">
     <div class="inner">
-      <h1 class="brand_logo"><img src="images/header_logo.png"></h1>
-      <p class="ticket"><img src="images/header_ticket.png"></p>
+      <a href="#"><h1 class="brand_logo"><img src="images/header_logo.png"></h1></a>
+      <a href="#"><p class="ticket"><img src="images/header_ticket.png"></p></a>
     </div><!--inner end-->
   </header>
 
@@ -51,8 +58,8 @@
           <p class="tit">비회원으로 <br> 접속하셨습니다.</p>
           <p class="txt">바운스 신규회원 가입시 <br> 3000원 쿠폰혜택을 드립니다.</p>
           <div class="btn_list">
-            <p class="btn_a">회원가입</p>
-            <p class="btn_b">로그인</p>
+            <a href="#"><p class="btn_a">회원가입</p></a>
+            <a href="login_01.html"><p class="btn_b">로그인</p></a>
           </div><!--btn_list-->
         </div><!--txt_box-->
         <div class="img">
@@ -68,37 +75,48 @@
       <h4>What’s NEW</h4>
       <a href="#"><p>view all</p></a>
     </div>
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
 
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          
-        <div class="swiper-slide">
-          <img src="images/sec2_img_01.jpg">
-          <div class="txt_box">
-            <p class="tit">바운스 2022 <br>크리스마스 운영안내</p>
-            <p class="date">22. 12. 24 ~ 22. 12. 26</p>
-          </div><!--txt_box---->
-        </div><!--swiper-slide-->
+    <div class="swiper-slide slide1">
+      <div class="txt_box">
+        <p class="tit">바운스 2022 <br>크리스마스 운영안내</p>
+        <p class="date">22. 12. 24 ~ 22. 12. 26</p>
+      </div><!--txt_box---->
+    </div>
 
-        <div class="swiper-slide">
-          <img src="images/sec2_img_02.jpg">
-          <div class="txt_box">
-            <p class="tit">바운스 2022 <br>크리스마스 운영안내</p>
-            <p class="date">22. 12. 24 ~ 22. 12. 26</p>
-          </div><!--txt_box---->
-        </div><!--swiper-slide-->
 
-        <div class="swiper-slide">
-          <img src="images/sec2_img_03.jpg">
-          <div class="txt_box">
-            <p class="tit">바운스 2022 <br>크리스마스 운영안내</p>
-            <p class="date">22. 12. 24 ~ 22. 12. 26</p>
-          </div><!--txt_box---->
-        </div><!--swiper-slide-->
+    <div class="swiper-slide slide2">
+      <div class="txt_box">
+        <p class="tit">바운스 안양센터<br>오픈이벤트</p>
+        <p class="date">22. 10. 5 ~ 22. 10. 10</p>
+      </div><!--txt_box---->
+    </div>
 
-      
-      </div><!--swiper-wrapper-->
-      </div><!--swiper-container-->
+
+    <div class="swiper-slide slide3">
+      <div class="txt_box">
+        <p class="tit">바운스 추석연휴<br> 운영안내 공지사항</p>
+        <p class="date">22. 9. 9 ~ 22. 9. 12</p>
+      </div><!--txt_box---->
+    </div>
+
+
+    <div class="swiper-slide slide4">      
+      <div class="txt_box">
+      <p class="tit">바운스 부산점 <br>파티이벤트 start</p>
+      <p class="date">22. 11. 10</p>
+    </div><!--txt_box---->
+  </div>
+
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+     
 
     </div><!--inner-->
   </section><!--sec2 end-->
@@ -124,23 +142,31 @@
       <div class="icon_list">
 
         <div class="icon_box">
+          <a href="#">
           <img src="images/sec5_icon_01..png">
           <p>센터안내</p>
+          </a>
         </div>
 
         <div class="icon_box">
+          <a href="#">
           <img src="images/sec5_icon_02..png">
           <p>파티/단체</p>
+        </a>
         </div>
 
         <div class="icon_box">
+          <a href="#">
           <img src="images/sec5_icon_03..png">
           <p>자녀등록</p>
+        </a>
         </div>
 
         <div class="icon_box">
+          <a href="#">
           <img src="images/sec5_icon_04..png">
           <p>상담/문의</p>
+        </a>
         </div>
 
       </div><!--icon_list-->
@@ -159,7 +185,7 @@
         <p class="txt">HAPPY BRITHDAY TO YOU</p>
       </div><!--txt_box-->
 
-        <img src="images/header_logo.png" alt="로고" class="logo">
+        <p class="logo"><img src="images/header_logo.png" alt="로고" ></p>
     </div><!--inner-->
   </section><!--sec5 end-->
 
@@ -168,7 +194,7 @@
     <div class="icon_list">
         <p><a href="#"><img src="images/bot_bars_icon_01.png"></p></a>
         <p><a href="#"><img src="images/bot_bars_icon_02.png"></p></a>
-        <p class="ticket"><img src="images/bot_bars_icon_03.png"></p></a>
+        <a href="#"><p class="ticket"><img src="images/bot_bars_icon_03.png"></p></a>
         <p><a href="#"><img src="images/bot_bars_icon_04.png"></a></p>
         <p><a href="#"><img src="images/bot_bars_icon_05.png"></a></p>
   </div>

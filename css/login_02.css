@@ -119,9 +119,14 @@ justify-content: center;
 .login_tit p{
   font-size: 1rem;
   line-height: 1.3em;
+  font-weight: 700;
 }
 input::placeholder {
   color: #fff;
+  font-size: 0.9rem;
+}
+.login_box p{
+  line-height: 1.5em;
   font-size: 0.9rem;
 }
 .login_checkbox{
@@ -154,7 +159,25 @@ input::placeholder {
 }
 
 /*********************section 2****************************/
-
+#sec2 .btn_log1{
+  margin-top: 100px;
+}
+#sec2 .ex{
+  margin-top: 10px;
+  color: #AAAAAA;
+  font-size: 0.8rem;
+  text-align: center;
+}
+#sec2 .question{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #AAAAAA;
+}
+#sec2 .question span{
+  color: #333;
+  font-weight: 900;
+}
 
 /*********************section 
 3****************************/

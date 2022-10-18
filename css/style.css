@@ -149,6 +149,60 @@ justify-content: center;
   margin-right: 10px;
 }
 
+/*********************section 1_1****************************/
+
+#sec1_1 { 
+  background: linear-gradient(rgba(16, 16, 37, 1), rgba(16, 16, 37, 0.5)), url(../images/main_sec01_back.jpg);  
+  background-size: cover ;
+  background-position: center center;
+  height: 380px;
+  color: #fff;
+  padding-top: 55px;
+}
+#sec1_1 .pic{
+  width: 100px ;
+  height: 100px ;
+  border-radius: 50%;
+  background-image: url(../images/index_01_profile.jpg);
+  background-size: cover ;
+  background-position: center center;
+margin: 0 auto;
+margin-bottom: 20px;
+
+}
+#sec1_1 .name{
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+}
+#sec1_1 .personal{
+  text-align: center;
+
+}
+#sec1_1 .personal_info{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#sec1_1 .personal_info p{
+margin-right: 20px;
+margin-bottom: 40px;
+}
+#sec1_1 .personal_info .point{
+  margin-right: 0px;
+
+  }
+#sec1_1 .icon_list{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#sec1_1 .icon_list p{
+  margin-top: 10px;
+}
+#sec1_1 .icon_list img{
+  height: 45px;
+}
 
 
 /*********************section 2****************************/
@@ -205,6 +259,7 @@ justify-content: center;
 #sec2 .swiper-slide .txt_box .date{
   font-size: 0.6rem;
   color: #AAAAAA;
+  text-align: left;
 }
 
 /*********************section 
@@ -316,6 +371,8 @@ justify-content: center;
 position: fixed;
 bottom: 0;
 z-index: 999;
+min-width: 320px;
+max-width: 760px;
 }
 #bot_bar .icon_list{
   display: flex;

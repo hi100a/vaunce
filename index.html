@@ -34,6 +34,8 @@
 <!--whats new -->
 <script src="js/whats_new.js"> </script>
 
+<script src="js/ticket_popup.js"> </script>
+
 
 </head>
 
@@ -194,16 +196,21 @@
     <div class="icon_list">
         <p><a href="index.html"><img src="images/bot_bars_icon_01.png"></p></a>
         <p><a href="#"><img src="images/bot_bars_icon_02.png"></p></a>
-        <a href="#"><p class="ticket"><img src="images/bot_bars_icon_03.png"></p></a>
+        <a href="#"><p class="ticket">
+          <img src="images/bot_bars_icon_03.png" class="ticket_open" alt="티켓구매"></p>
+          <img src="images/bot_bars_icon_03-1 close.png" class="ticket_close" alt="티켓구매창 닫기"></p>
+        </a>
         <p><a href="#"><img src="images/bot_bars_icon_04.png"></a></p>
         <p><a href="#"><img src="images/bot_bars_icon_05.png"></a></p>
   </div>
   </div><!--bot_bar-->
 
+
+
 <section id="ticket_popup">
   <div class="top">
     <h3>티켓구매</h3>
-    <p>이용요금안내</p>
+    <a href="#" class="ticket_popup_close"><p><img src="images/ticket_popup_close.png"></p></치a>
   </div><!--top-->
 
   <div class="center_list">
@@ -212,38 +219,127 @@
 
       <div class="center">
         <p class="tit">남양주</p>
-        <p class="change">변경</p>
+        <a href="#"><p class="change">변경</p></a>
       </div>
 
       <div class="center">
         <p class="tit">남양주</p>
-        <p class="change">변경</p>
+        <a href="#"><p class="change">변경</p></a>
       </div>
 
-      <div class="center">
-        <p class="plus"></p>
+      <div class="center_plus">
+        <a href="#"><p class="plus"><img src="images/ticket_popup_plus_icon.png"></p></a>
       </div>
 
-    <div class="block_list">
+    </div><!--mycenters-->
+  </div><!--center_list-->
+
+    <div class="ticket_bot">
+    <div class="t_set">
       <div class="block">
         <h3>다회권</h3>
-        <p class="pic"><img src="#"></p>
+        <p class="pic"><img src="images/ticket_popup_t_set_icon_01.png"></p>
         <p>5회+1회무료</p>
       </div>
 
-      <div class="t_group">
-        <h3>다회권</h3>
-        <p class="pic"><img src="#"></p>
-        <p>5회+1회무료</p>
+      <div class="block">
+        <h3>정기권</h3>
+        <p class="pic"><img src="images/ticket_popup_t_set_icon_02.png"></p>
+        <p>기간내 무제한!</p>
       </div>
-    </div><!--block_list-->
+    </div><!--t_set-->
 
-    <div class="t_personal">
 
-    </div>
+    <div class="t_person">
+      <div class="tit">
+        <h4>개 인</h4>
+        <p>스마트하게 결제하고 빠르게 입장하세요</p>
+      </div>
 
-    </div><!--center_list-->
-  </div>
+        <a href="#">
+          <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_person_icon_01.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">일반 (100cm 이상)</p>
+            <p class="list_p">1시간권/2시간권</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+          </div><!--list-->
+        </a>
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_person_icon_02.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">키즈 (80-100cm 미만) </p>
+            <p class="list_p">1시간권/2시간권</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_person_icon_03.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">종일권 (All day)</p>
+            <p class="list_p">프리패스1인/프리패스2인</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_person_icon_04.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">보호자 입장권</p>
+            <p class="list_p">커피교환가능/시설이용불가</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+    </div><!--t_person--->
+
+
+
+
+
+    
+    <div class="t_group">
+      <div class="tit">
+        <h4>단 체</h4>
+        <p>다양한 단체 프로그램을 체험해보세요</p>
+      </div>
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_group_icon_01.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">GROUP  (20명 이상시)</p>
+            <p class="list_p">어린이/학교·학원/일반단체</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_group_icon_02.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">PARTY</p>
+            <p class="list_p">베이직파티/테마파티</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+        <div class="list">
+          <p class="icon"><img src="images/ticket_popup_t_group_icon_03.png"></p>
+          <div class="txt_box">
+            <p class="list_bold">WORK SHOP</p>
+            <p class="list_p">기업 (20명 이상시)</p>
+          </div>
+          <p class="arrow"><img src="images/ticket_popup_arrow_right.png"></p>
+        </div><!--list-->
+
+    </div><!--t_group--->
+
+
+
+
+  </div><!--ticket_bot--배경용-->
 </section><!--ticket_popup-->
 
   

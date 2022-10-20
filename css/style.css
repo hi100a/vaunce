@@ -388,6 +388,23 @@ max-width: 760px;
   text-align: center;
 transform: translateY(-15px);
 }
+#bot_bar .ticket a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  background: url(../images/bot_bars_icon_03.png) no-repeat center;
+  
+}
+#bot_bar .ticket a.ticket_close{
+  background-image: url(../images/bot_bars_icon_03-1\ close.png);
+  animation: ani 2s infinite;
+}
+@keyframes ani{
+  0%{opacity: 1;}
+  50%{opacity: 0.2;}
+  100%{opacity: 1;}
+}
 #bot_bar .ticket img{
   margin-top: 15px;
   }
@@ -400,10 +417,17 @@ margin-top: 10px;
 
 /* ****************ticket_popup*************** */
 #ticket_popup{
+  position:fixed;
+  z-index:998;
+  bottom: -100vh;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow: auto;
   background-color: #fff;
   border-radius: 30px 30px 0 0 ;
   /* padding: 20px 15px; */
-  box-shadow: 0 -5px 20px #D9D9D9 ;
+  /* box-shadow: 0 -5px 20px #D9D9D9 ; */
   padding-top: 20px;
 }
 #ticket_popup .top{
